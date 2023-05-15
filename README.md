@@ -9,7 +9,7 @@
 Data Table package with server-side processing, unlimited exporting and VueJS components. 
 Quickly build any complex table based on a JSON template.
 
-This package can work independently of the [Enso](https://github.com/laravel-enso/Enso) ecosystem.
+This package can work independently of the [Liberu](https://github.com/laravel-enso/Liberu) ecosystem.
 
 The front end assets that utilize this api are present in the [tables](https://github.com/enso-ui/tables) package.
 
