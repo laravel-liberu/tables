@@ -21,7 +21,7 @@
     "require": {
         "php": ">=8.0",
         "box/spout": "^3.0",
-        "laravel/framework": "^9.0",
+        "laravel/framework": "^9.0|^10.0",
         "laravel-liberu/enums": "^2.0",
         "laravel-liberu/filters": "^2.0",
         "laravel-liberu/helpers": "^2.0"
