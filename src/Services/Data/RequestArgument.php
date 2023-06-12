@@ -19,7 +19,7 @@ class RequestArgument
             return $arg;
         }
 
-        $decodedArg = json_decode($arg, true);
+        $decodedArg = json_decode((string) $arg, true);
 
         return json_last_error() === JSON_ERROR_NONE
             ? $decodedArg

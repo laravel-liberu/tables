@@ -11,7 +11,7 @@ use LaravelEnso\Tables\Services\Data\ModelComputors;
 class Computor
 {
     public function __construct(
-        private Config $config,
+        private readonly Config $config,
         private Collection $data,
     ) {
     }

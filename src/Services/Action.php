@@ -9,8 +9,8 @@ use LaravelEnso\Tables\Services\Data\Request;
 
 abstract class Action
 {
-    private Fetcher $fetcher;
-    private Request $request;
+    private readonly Fetcher $fetcher;
+    private readonly Request $request;
 
     public function __construct(Table $table, Config $config)
     {

@@ -9,7 +9,7 @@ use LaravelEnso\Tables\Attributes\Style as Attributes;
 
 class Style
 {
-    private Obj $defaultStyle;
+    private readonly Obj $defaultStyle;
 
     public function __construct(private Obj $template)
     {

@@ -9,8 +9,8 @@ use LaravelEnso\Helpers\Services\Obj;
 class Filters
 {
     public function __construct(
-        private Obj $template,
-        private Obj $meta
+        private readonly Obj $template,
+        private readonly Obj $meta
     ) {
     }
 

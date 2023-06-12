@@ -14,13 +14,13 @@ use LaravelEnso\Tables\Services\Data\Sorts\Sort;
 
 class Data
 {
-    private Builder $query;
+    private readonly Builder $query;
     private Collection $data;
 
     public function __construct(
-        private Table $table,
-        private Config $config,
-        private bool $fetchMode = false
+        private readonly Table $table,
+        private readonly Config $config,
+        private readonly bool $fetchMode = false
     ) {
         $this->query = $table->query();
     }

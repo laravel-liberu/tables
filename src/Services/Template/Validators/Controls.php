@@ -8,8 +8,8 @@ use LaravelEnso\Tables\Exceptions\Control as Exception;
 
 class Controls
 {
-    private ?Obj $controls;
-    private Obj $defaults;
+    private readonly ?Obj $controls;
+    private readonly Obj $defaults;
 
     public function __construct(Obj $template)
     {

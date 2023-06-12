@@ -7,7 +7,7 @@ use LaravelEnso\Tables\Exceptions\Filter as Exception;
 
 class Filters
 {
-    private ?Obj $filters;
+    private readonly ?Obj $filters;
 
     public function __construct(Obj $template)
     {

@@ -9,7 +9,7 @@ use LaravelEnso\Tables\Services\Data\Config;
 
 class EnsoExcel extends Excel
 {
-    private Export $export;
+    private readonly Export $export;
 
     public function __construct(User $user, Config $config, string $table, Export $export)
     {

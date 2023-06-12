@@ -12,11 +12,11 @@ class Buttons
 {
     private const Validations = ['format', 'defaults', 'structure'];
 
-    private Obj $defaults;
+    private readonly Obj $defaults;
 
     public function __construct(
-        private Obj $template,
-        private Table $table
+        private readonly Obj $template,
+        private readonly Table $table
     ) {
         $this->defaults = $this->configButtons();
     }

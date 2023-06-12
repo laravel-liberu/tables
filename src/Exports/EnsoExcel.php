@@ -18,7 +18,7 @@ class EnsoExcel extends Excel
         protected User $user,
         protected Table $table,
         protected Config $config,
-        private Export $export
+        private readonly Export $export
     ) {
     }
 

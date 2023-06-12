@@ -27,11 +27,11 @@ class Structure
 
     private const TemplateOrConfigToMeta = ['searchMode', 'fullInfoRecordLimit'];
 
-    private bool $customDtRowId;
+    private readonly bool $customDtRowId;
 
     public function __construct(
-        private Obj $template,
-        private Obj $meta
+        private readonly Obj $template,
+        private readonly Obj $meta
     ) {
         $this->customDtRowId = $this->template->has('dtRowId');
     }

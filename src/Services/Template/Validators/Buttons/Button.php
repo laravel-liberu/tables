@@ -17,9 +17,9 @@ class Button
     ];
 
     public function __construct(
-        private Obj $button,
-        private Table $table,
-        private Obj $template
+        private readonly Obj $button,
+        private readonly Table $table,
+        private readonly Obj $template
     ) {
     }
 

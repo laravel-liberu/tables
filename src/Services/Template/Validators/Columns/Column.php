@@ -16,7 +16,7 @@ class Column
         'meta', 'money', 'number', 'resource', 'tooltip',
     ];
 
-    public function __construct(private Obj $column)
+    public function __construct(private readonly Obj $column)
     {
     }
 

@@ -7,12 +7,12 @@ use LaravelEnso\Tables\Services\Data\RequestArgument as Argument;
 
 class Request
 {
-    private Obj $columns;
-    private Obj $meta;
-    private Obj $searches;
-    private Obj $filters;
-    private Obj $intervals;
-    private Obj $params;
+    private readonly Obj $columns;
+    private readonly Obj $meta;
+    private readonly Obj $searches;
+    private readonly Obj $filters;
+    private readonly Obj $intervals;
+    private readonly Obj $params;
 
     public function __construct($columns, $meta, FilterAggregator $aggregator)
     {

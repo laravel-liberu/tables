@@ -9,7 +9,7 @@ use LaravelEnso\Tables\Exceptions\Route as Exception;
 
 class Route
 {
-    private string $readRoute;
+    private readonly string $readRoute;
 
     public function __construct(Obj $template)
     {

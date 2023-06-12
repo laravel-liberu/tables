@@ -12,7 +12,7 @@ class Filter
 {
     private const Validations = ['mandatory', 'optional', 'complementary', 'route'];
 
-    public function __construct(private Obj $filter)
+    public function __construct(private readonly Obj $filter)
     {
     }
 

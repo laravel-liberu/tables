@@ -15,8 +15,8 @@ use LaravelEnso\Tables\Services\Template\Validators\Structure\Structure;
 class Validator
 {
     public function __construct(
-        private Obj $template,
-        private Table $table
+        private readonly Obj $template,
+        private readonly Table $table
     ) {
     }
 

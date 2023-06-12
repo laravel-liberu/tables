@@ -19,7 +19,7 @@ use ReflectionClass;
 
 class Meta
 {
-    private Builder $query;
+    private readonly Builder $query;
     private bool $filters;
     private int $count;
     private int $filtered;
@@ -27,8 +27,8 @@ class Meta
     private bool $fullRecordInfo;
 
     public function __construct(
-        private Table $table,
-        private Config $config
+        private readonly Table $table,
+        private readonly Config $config
     ) {
         $this->query = $table->query();
         $this->total = [];

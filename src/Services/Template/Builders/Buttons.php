@@ -11,9 +11,9 @@ class Buttons
 {
     private const PathActions = ['href', 'ajax', 'export', 'action'];
 
-    private Obj $defaults;
+    private readonly Obj $defaults;
 
-    public function __construct(private Obj $template)
+    public function __construct(private readonly Obj $template)
     {
         $this->defaults = $this->defaults();
         $this->template->set('actions', false);

@@ -20,7 +20,7 @@ class Template
     private Obj $template;
     private Obj $meta;
 
-    public function __construct(private Table $table)
+    public function __construct(private readonly Table $table)
     {
         $this->meta = new Obj();
     }

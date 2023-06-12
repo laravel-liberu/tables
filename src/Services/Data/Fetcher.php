@@ -16,8 +16,8 @@ class Fetcher
     private int $count;
 
     public function __construct(
-        private Table $table,
-        private Config $config
+        private readonly Table $table,
+        private readonly Config $config
     ) {
         $this->data = new Collection();
         $this->page = 0;

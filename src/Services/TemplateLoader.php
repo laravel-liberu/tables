@@ -14,7 +14,7 @@ class TemplateLoader
     private Template $template;
     private array $cache;
 
-    public function __construct(private Table $table)
+    public function __construct(private readonly Table $table)
     {
     }
 
@@ -64,14 +64,11 @@ class TemplateLoader
             Config::get('enso.tables.cache.template')
         );
 
-        switch ($type) {
-            case 'never':
-                return false;
-            case 'always':
-                return true;
-            default:
-                return app()->environment($type);
-        }
+        return match ($type) {
+            'never' => false,
+            'always' => true,
+            default => app()->environment($type),
+        };
     }
 
     private function cacheKey(): string

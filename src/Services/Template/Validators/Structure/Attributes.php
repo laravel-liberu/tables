@@ -7,7 +7,7 @@ use LaravelEnso\Tables\Exceptions\Template as Exception;
 
 class Attributes
 {
-    public function __construct(private Obj $template)
+    public function __construct(private readonly Obj $template)
     {
     }
 

@@ -8,8 +8,8 @@ use LaravelEnso\Tables\Services\Data\Config;
 class Sort
 {
     public function __construct(
-        private Config $config,
-        private Builder $query
+        private readonly Config $config,
+        private readonly Builder $query
     ) {
     }
 

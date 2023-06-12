@@ -7,7 +7,7 @@ use LaravelEnso\Tables\Exceptions\Column as Exception;
 
 class Columns
 {
-    private Obj $columns;
+    private readonly Obj $columns;
 
     public function __construct(Obj $template)
     {

@@ -13,8 +13,8 @@ use LaravelEnso\Tables\Services\Template\Builders\Style;
 class Builder
 {
     public function __construct(
-        private Obj $template,
-        private Obj $meta
+        private readonly Obj $template,
+        private readonly Obj $meta
     ) {
     }
 

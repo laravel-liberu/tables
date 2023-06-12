@@ -17,8 +17,8 @@ class Columns
     ];
 
     public function __construct(
-        private Obj $template,
-        private Obj $meta
+        private readonly Obj $template,
+        private readonly Obj $meta
     ) {
     }
 

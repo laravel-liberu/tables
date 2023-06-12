@@ -14,13 +14,13 @@ class Pagination
     private bool $atStart;
     private bool $atEnd;
     private bool $atMiddle;
-    private Collection $middlePages;
+    private readonly Collection $middlePages;
     private int $page;
 
     public function __construct(
-        private Obj $meta,
-        private int $filtered,
-        private bool $fullInfo
+        private readonly Obj $meta,
+        private readonly int $filtered,
+        private readonly bool $fullInfo
     ) {
         $this->pages = null;
         $this->atStart = false;

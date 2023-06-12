@@ -228,7 +228,7 @@ class Excel
 
     private function value(Obj $column, array $row)
     {
-        return Collection::wrap(explode('.', $column->get('name')))
+        return Collection::wrap(explode('.', (string) $column->get('name')))
             ->reduce(fn ($value, $segment) => $value[$segment] ?? '', $row);
     }
 

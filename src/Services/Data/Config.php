@@ -27,8 +27,8 @@ class Config
     private Obj $meta;
 
     public function __construct(
-        private Request $request,
-        private Template $template
+        private readonly Request $request,
+        private readonly Template $template
     ) {
         $this->setMeta()
             ->setColumns();

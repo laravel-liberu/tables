@@ -16,9 +16,9 @@ class Total
     private array $total;
 
     public function __construct(
-        private Table $table,
-        private Config $config,
-        private Builder $query
+        private readonly Table $table,
+        private readonly Config $config,
+        private readonly Builder $query
     ) {
         $this->total = [];
     }
