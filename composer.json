@@ -7,14 +7,14 @@
         "data-table",
         "data-table-server-side"
     ],
-urtis/projects/backend/laravel-liberu/pdf/composer.json
+
     "type": "library",
     "license": "MIT",
     "authors": [
         {
             "name": "Adrian Ocneanu",
             "email": "aocneanu@gmail.com",
-urtis/projects/backend/laravel-liberu/pdf/composer.json
+
             "role": "Developer"
         }
     ],
