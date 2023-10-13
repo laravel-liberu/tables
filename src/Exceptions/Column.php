@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\Tables\Exceptions;
+namespace LaravelLiberu\Tables\Exceptions;
 
-use LaravelEnso\Helpers\Exceptions\EnsoException;
-use LaravelEnso\Tables\Attributes\Number;
+use LaravelLiberu\Helpers\Exceptions\EnsoException;
+use LaravelLiberu\Tables\Attributes\Number;
 
 class Column extends EnsoException
 {

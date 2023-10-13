@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Tables\Jobs;
+namespace LaravelLiberu\Tables\Jobs;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
@@ -10,8 +10,8 @@ use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Config as ConfigFacade;
-use LaravelEnso\Tables\Exports\Excel as Service;
-use LaravelEnso\Tables\Services\Data\Config;
+use LaravelLiberu\Tables\Exports\Excel as Service;
+use LaravelLiberu\Tables\Services\Data\Config;
 
 class Excel implements ShouldQueue
 {

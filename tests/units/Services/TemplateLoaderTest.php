@@ -4,9 +4,9 @@ use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Str;
-use LaravelEnso\Tables\Services\Template;
-use LaravelEnso\Tables\Services\TemplateLoader;
-use LaravelEnso\Tables\Tests\units\Services\TestTable;
+use LaravelLiberu\Tables\Services\Template;
+use LaravelLiberu\Tables\Services\TemplateLoader;
+use LaravelLiberu\Tables\Tests\units\Services\TestTable;
 use Tests\TestCase;
 
 class TemplateLoaderTest extends TestCase

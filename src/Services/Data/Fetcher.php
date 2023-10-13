@@ -1,12 +1,12 @@
 <?php
 
-namespace LaravelEnso\Tables\Services\Data;
+namespace LaravelLiberu\Tables\Services\Data;
 
 use Illuminate\Support\Collection;
-use LaravelEnso\Helpers\Services\OptimalChunk;
-use LaravelEnso\Tables\Contracts\Table;
-use LaravelEnso\Tables\Services\Data\Builders\Data;
-use LaravelEnso\Tables\Services\Data\Builders\Meta;
+use LaravelLiberu\Helpers\Services\OptimalChunk;
+use LaravelLiberu\Tables\Contracts\Table;
+use LaravelLiberu\Tables\Services\Data\Builders\Data;
+use LaravelLiberu\Tables\Services\Data\Builders\Meta;
 
 class Fetcher
 {

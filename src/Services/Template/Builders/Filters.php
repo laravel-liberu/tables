@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Tables\Services\Template\Builders;
+namespace LaravelLiberu\Tables\Services\Template\Builders;
 
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Config;
-use LaravelEnso\Helpers\Services\Obj;
+use LaravelLiberu\Helpers\Services\Obj;
 
 class Filters
 {

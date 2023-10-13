@@ -1,12 +1,12 @@
 <?php
 
-namespace LaravelEnso\Tables\Services\Data\Computors;
+namespace LaravelLiberu\Tables\Services\Data\Computors;
 
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\App;
-use LaravelEnso\Helpers\Services\Obj;
-use LaravelEnso\Tables\Contracts\ComputesModelColumns;
+use LaravelLiberu\Helpers\Services\Obj;
+use LaravelLiberu\Tables\Contracts\ComputesModelColumns;
 use stdClass;
 
 class Resource implements ComputesModelColumns

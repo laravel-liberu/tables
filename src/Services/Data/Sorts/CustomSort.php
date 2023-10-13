@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Tables\Services\Data\Sorts;
+namespace LaravelLiberu\Tables\Services\Data\Sorts;
 
 use Illuminate\Database\Eloquent\Builder;
-use LaravelEnso\Helpers\Services\Obj;
-use LaravelEnso\Tables\Services\Data\Config;
+use LaravelLiberu\Helpers\Services\Obj;
+use LaravelLiberu\Tables\Services\Data\Config;
 
 class CustomSort
 {

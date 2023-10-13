@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Tables\Traits\Tests;
+namespace LaravelLiberu\Tables\Traits\Tests;
 
 use Exception;
 use Illuminate\Support\Facades\Config;

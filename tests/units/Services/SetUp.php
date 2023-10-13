@@ -1,14 +1,14 @@
 <?php
 
-namespace LaravelEnso\Tables\Tests\units\Services;
+namespace LaravelLiberu\Tables\Tests\units\Services;
 
 use Faker\Factory;
 use Illuminate\Support\Facades\Route;
-use LaravelEnso\Helpers\Services\Obj;
-use LaravelEnso\Tables\Services\Data\Config;
-use LaravelEnso\Tables\Services\Data\FilterAggregator;
-use LaravelEnso\Tables\Services\Data\Request;
-use LaravelEnso\Tables\Services\Template;
+use LaravelLiberu\Helpers\Services\Obj;
+use LaravelLiberu\Tables\Services\Data\Config;
+use LaravelLiberu\Tables\Services\Data\FilterAggregator;
+use LaravelLiberu\Tables\Services\Data\Request;
+use LaravelLiberu\Tables\Services\Template;
 
 trait SetUp
 {

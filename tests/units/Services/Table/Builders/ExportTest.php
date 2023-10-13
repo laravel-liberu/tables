@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\Tables\Tests\units\Services\Table\Builders;
+namespace LaravelLiberu\Tables\Tests\units\Services\Table\Builders;
 
 use Illuminate\Support\Facades\App;
-use LaravelEnso\Helpers\Services\Obj;
-use LaravelEnso\Tables\Services\Data\Fetcher;
-use LaravelEnso\Tables\Tests\units\Services\SetUp;
+use LaravelLiberu\Helpers\Services\Obj;
+use LaravelLiberu\Tables\Services\Data\Fetcher;
+use LaravelLiberu\Tables\Tests\units\Services\SetUp;
 use Tests\TestCase;
 
 class ExportTest extends TestCase

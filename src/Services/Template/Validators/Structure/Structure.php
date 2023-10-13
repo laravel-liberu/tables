@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\Tables\Services\Template\Validators\Structure;
+namespace LaravelLiberu\Tables\Services\Template\Validators\Structure;
 
 use Illuminate\Support\Collection;
-use LaravelEnso\Helpers\Services\Obj;
-use LaravelEnso\Tables\Attributes\Structure as Attributes;
-use LaravelEnso\Tables\Exceptions\Template as Exception;
+use LaravelLiberu\Helpers\Services\Obj;
+use LaravelLiberu\Tables\Attributes\Structure as Attributes;
+use LaravelLiberu\Tables\Exceptions\Template as Exception;
 
 class Structure
 {

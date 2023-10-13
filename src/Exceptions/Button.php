@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\Tables\Exceptions;
+namespace LaravelLiberu\Tables\Exceptions;
 
-use LaravelEnso\Helpers\Exceptions\EnsoException;
-use LaravelEnso\Tables\Attributes\Button as Attributes;
+use LaravelLiberu\Helpers\Exceptions\EnsoException;
+use LaravelLiberu\Tables\Attributes\Button as Attributes;
 
 class Button extends EnsoException
 {

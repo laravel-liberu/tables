@@ -28,18 +28,18 @@
     },
     "autoload": {
         "psr-4": {
-            "LaravelEnso\\Tables\\": "src/"
+            "LaravelLiberu\\Tables\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "LaravelEnso\\Tables\\Tests\\": "tests/"
+            "LaravelLiberu\\Tables\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "LaravelEnso\\Tables\\AppServiceProvider"
+                "LaravelLiberu\\Tables\\AppServiceProvider"
             ],
             "aliases": {}
         }

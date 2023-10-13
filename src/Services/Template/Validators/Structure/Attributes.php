@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\Tables\Services\Template\Validators\Structure;
+namespace LaravelLiberu\Tables\Services\Template\Validators\Structure;
 
-use LaravelEnso\Helpers\Services\Obj;
-use LaravelEnso\Tables\Exceptions\Template as Exception;
+use LaravelLiberu\Helpers\Services\Obj;
+use LaravelLiberu\Tables\Exceptions\Template as Exception;
 
 class Attributes
 {

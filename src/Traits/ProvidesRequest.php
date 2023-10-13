@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Tables\Traits;
+namespace LaravelLiberu\Tables\Traits;
 
 use Illuminate\Http\Request;
-use LaravelEnso\Tables\Services\Data\FilterAggregator;
-use LaravelEnso\Tables\Services\Data\Request as TableRequest;
+use LaravelLiberu\Tables\Services\Data\FilterAggregator;
+use LaravelLiberu\Tables\Services\Data\Request as TableRequest;
 
 trait ProvidesRequest
 {

@@ -1,18 +1,18 @@
 <?php
 
-namespace LaravelEnso\Tables\Services\Data;
+namespace LaravelLiberu\Tables\Services\Data;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\App;
-use LaravelEnso\Tables\Contracts\CustomFilter as TableCustomFilter;
-use LaravelEnso\Tables\Contracts\Filter as TableFilter;
-use LaravelEnso\Tables\Exceptions\Filter as Exception;
-use LaravelEnso\Tables\Services\Data\Filters\BaseFilter;
-use LaravelEnso\Tables\Services\Data\Filters\CustomFilter;
-use LaravelEnso\Tables\Services\Data\Filters\Filter;
-use LaravelEnso\Tables\Services\Data\Filters\Interval;
-use LaravelEnso\Tables\Services\Data\Filters\Search;
-use LaravelEnso\Tables\Services\Data\Filters\Searches;
+use LaravelLiberu\Tables\Contracts\CustomFilter as TableCustomFilter;
+use LaravelLiberu\Tables\Contracts\Filter as TableFilter;
+use LaravelLiberu\Tables\Exceptions\Filter as Exception;
+use LaravelLiberu\Tables\Services\Data\Filters\BaseFilter;
+use LaravelLiberu\Tables\Services\Data\Filters\CustomFilter;
+use LaravelLiberu\Tables\Services\Data\Filters\Filter;
+use LaravelLiberu\Tables\Services\Data\Filters\Interval;
+use LaravelLiberu\Tables\Services\Data\Filters\Search;
+use LaravelLiberu\Tables\Services\Data\Filters\Searches;
 
 class Filters extends BaseFilter
 {

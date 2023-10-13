@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\Tables\Tests\units\Services;
+namespace LaravelLiberu\Tables\Tests\units\Services;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\File;
-use LaravelEnso\Tables\Contracts\Table;
+use LaravelLiberu\Tables\Contracts\Table;
 
 class TestTable implements Table
 {

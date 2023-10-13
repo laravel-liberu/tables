@@ -1,13 +1,13 @@
 <?php
 
-namespace LaravelEnso\Tables\Tests\units\Services\Template\Validators;
+namespace LaravelLiberu\Tables\Tests\units\Services\Template\Validators;
 
 use Illuminate\Support\Collection;
-use LaravelEnso\Helpers\Services\Obj;
-use LaravelEnso\Tables\Attributes\Column as Attributes;
-use LaravelEnso\Tables\Exceptions\Column as ColumnException;
-use LaravelEnso\Tables\Exceptions\Meta as MetaException;
-use LaravelEnso\Tables\Services\Template\Validators\Columns\Columns;
+use LaravelLiberu\Helpers\Services\Obj;
+use LaravelLiberu\Tables\Attributes\Column as Attributes;
+use LaravelLiberu\Tables\Exceptions\Column as ColumnException;
+use LaravelLiberu\Tables\Exceptions\Meta as MetaException;
+use LaravelLiberu\Tables\Services\Template\Validators\Columns\Columns;
 use Tests\TestCase;
 
 class ColumnTest extends TestCase

@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Tables\Services\Data\Builders;
+namespace LaravelLiberu\Tables\Services\Data\Builders;
 
 use Illuminate\Support\Collection;
-use LaravelEnso\Helpers\Services\Decimals;
-use LaravelEnso\Helpers\Services\Obj;
+use LaravelLiberu\Helpers\Services\Decimals;
+use LaravelLiberu\Helpers\Services\Obj;
 
 class Pagination
 {

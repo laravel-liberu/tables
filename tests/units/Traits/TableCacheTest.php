@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Tables\Tests\units\Traits;
+namespace LaravelLiberu\Tables\Tests\units\Traits;
 
 use Faker\Factory;
 use Illuminate\Cache\TaggableStore;
@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Schema;
-use LaravelEnso\Tables\Traits\TableCache;
+use LaravelLiberu\Tables\Traits\TableCache;
 use Tests\TestCase;
 
 class TableCacheTest extends TestCase

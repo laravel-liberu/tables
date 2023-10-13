@@ -1,8 +1,8 @@
 <?php
 
-namespace LaravelEnso\Tables\Contracts;
+namespace LaravelLiberu\Tables\Contracts;
 
-use LaravelEnso\Helpers\Services\Obj;
+use LaravelLiberu\Helpers\Services\Obj;
 
 interface RawTotal
 {

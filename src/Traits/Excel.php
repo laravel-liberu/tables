@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Tables\Traits;
+namespace LaravelLiberu\Tables\Traits;
 
 use Illuminate\Http\Request;
-use LaravelEnso\Tables\Exports\Prepare;
-use LaravelEnso\Tables\Notifications\ExportStarted;
+use LaravelLiberu\Tables\Exports\Prepare;
+use LaravelLiberu\Tables\Notifications\ExportStarted;
 
 trait Excel
 {

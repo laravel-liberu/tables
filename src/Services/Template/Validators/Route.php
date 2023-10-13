@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\Tables\Services\Template\Validators;
+namespace LaravelLiberu\Tables\Services\Template\Validators;
 
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Route as Facade;
-use LaravelEnso\Helpers\Services\Obj;
-use LaravelEnso\Tables\Exceptions\Route as Exception;
+use LaravelLiberu\Helpers\Services\Obj;
+use LaravelLiberu\Tables\Exceptions\Route as Exception;
 
 class Route
 {

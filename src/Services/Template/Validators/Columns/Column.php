@@ -1,13 +1,13 @@
 <?php
 
-namespace LaravelEnso\Tables\Services\Template\Validators\Columns;
+namespace LaravelLiberu\Tables\Services\Template\Validators\Columns;
 
 use Illuminate\Support\Collection;
-use LaravelEnso\Helpers\Services\Obj;
-use LaravelEnso\Tables\Attributes\Column as Attributes;
-use LaravelEnso\Tables\Attributes\Number;
-use LaravelEnso\Tables\Attributes\Style;
-use LaravelEnso\Tables\Exceptions\Column as Exception;
+use LaravelLiberu\Helpers\Services\Obj;
+use LaravelLiberu\Tables\Attributes\Column as Attributes;
+use LaravelLiberu\Tables\Attributes\Number;
+use LaravelLiberu\Tables\Attributes\Style;
+use LaravelLiberu\Tables\Exceptions\Column as Exception;
 
 class Column
 {

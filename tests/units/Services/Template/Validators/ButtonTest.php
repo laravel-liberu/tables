@@ -1,13 +1,13 @@
 <?php
 
-namespace LaravelEnso\Tables\Tests\units\Services\Template\Validators;
+namespace LaravelLiberu\Tables\Tests\units\Services\Template\Validators;
 
-use LaravelEnso\Helpers\Services\Obj;
-use LaravelEnso\Tables\Contracts\ConditionalActions;
-use LaravelEnso\Tables\Contracts\Table;
-use LaravelEnso\Tables\Exceptions\Button as Exception;
-use LaravelEnso\Tables\Services\Template\Validators\Buttons\Buttons;
-use LaravelEnso\Tables\Tests\units\Services\TestTable;
+use LaravelLiberu\Helpers\Services\Obj;
+use LaravelLiberu\Tables\Contracts\ConditionalActions;
+use LaravelLiberu\Tables\Contracts\Table;
+use LaravelLiberu\Tables\Exceptions\Button as Exception;
+use LaravelLiberu\Tables\Services\Template\Validators\Buttons\Buttons;
+use LaravelLiberu\Tables\Tests\units\Services\TestTable;
 use Route;
 use Tests\TestCase;
 

@@ -1,12 +1,12 @@
 <?php
 
-namespace LaravelEnso\Tables\Tests\units\Services\Template\Validators;
+namespace LaravelLiberu\Tables\Tests\units\Services\Template\Validators;
 
 use Illuminate\Support\Collection;
-use LaravelEnso\Helpers\Services\Obj;
-use LaravelEnso\Tables\Attributes\Structure as Attributes;
-use LaravelEnso\Tables\Exceptions\Route as Exception;
-use LaravelEnso\Tables\Services\Template\Validators\Route;
+use LaravelLiberu\Helpers\Services\Obj;
+use LaravelLiberu\Tables\Attributes\Structure as Attributes;
+use LaravelLiberu\Tables\Exceptions\Route as Exception;
+use LaravelLiberu\Tables\Services\Template\Validators\Route;
 use Tests\TestCase;
 
 class RouteTest extends TestCase

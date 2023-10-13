@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Tables\Services\Data\Filters;
+namespace LaravelLiberu\Tables\Services\Data\Filters;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
-use LaravelEnso\Filters\Services\Search as Service;
+use LaravelLiberu\Filters\Services\Search as Service;
 
 class Search extends BaseFilter
 {

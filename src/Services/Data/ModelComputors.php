@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\Tables\Services\Data;
+namespace LaravelLiberu\Tables\Services\Data;
 
-use LaravelEnso\Tables\Contracts\ComputesModelColumns;
-use LaravelEnso\Tables\Exceptions\ModelComputor;
-use LaravelEnso\Tables\Services\Data\Computors\Method;
-use LaravelEnso\Tables\Services\Data\Computors\Resource;
+use LaravelLiberu\Tables\Contracts\ComputesModelColumns;
+use LaravelLiberu\Tables\Exceptions\ModelComputor;
+use LaravelLiberu\Tables\Services\Data\Computors\Method;
+use LaravelLiberu\Tables\Services\Data\Computors\Resource;
 
 class ModelComputors extends Computors
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Tables\Services\Data\Computors;
+namespace LaravelLiberu\Tables\Services\Data\Computors;
 
 use Illuminate\Database\Eloquent\Model;
-use LaravelEnso\Helpers\Services\Obj;
-use LaravelEnso\Tables\Contracts\ComputesModelColumns;
+use LaravelLiberu\Helpers\Services\Obj;
+use LaravelLiberu\Tables\Contracts\ComputesModelColumns;
 
 class Method implements ComputesModelColumns
 {

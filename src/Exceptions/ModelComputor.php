@@ -1,8 +1,8 @@
 <?php
 
-namespace LaravelEnso\Tables\Exceptions;
+namespace LaravelLiberu\Tables\Exceptions;
 
-use LaravelEnso\Helpers\Exceptions\EnsoException;
+use LaravelLiberu\Helpers\Exceptions\EnsoException;
 
 class ModelComputor extends EnsoException
 {

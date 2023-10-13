@@ -1,14 +1,14 @@
 <?php
 
-namespace LaravelEnso\Tables\Services\Template;
+namespace LaravelLiberu\Tables\Services\Template;
 
-use LaravelEnso\Helpers\Services\Obj;
-use LaravelEnso\Tables\Services\Template\Builders\Buttons;
-use LaravelEnso\Tables\Services\Template\Builders\Columns;
-use LaravelEnso\Tables\Services\Template\Builders\Controls;
-use LaravelEnso\Tables\Services\Template\Builders\Filters;
-use LaravelEnso\Tables\Services\Template\Builders\Structure;
-use LaravelEnso\Tables\Services\Template\Builders\Style;
+use LaravelLiberu\Helpers\Services\Obj;
+use LaravelLiberu\Tables\Services\Template\Builders\Buttons;
+use LaravelLiberu\Tables\Services\Template\Builders\Columns;
+use LaravelLiberu\Tables\Services\Template\Builders\Controls;
+use LaravelLiberu\Tables\Services\Template\Builders\Filters;
+use LaravelLiberu\Tables\Services\Template\Builders\Structure;
+use LaravelLiberu\Tables\Services\Template\Builders\Style;
 
 class Builder
 {

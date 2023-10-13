@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\Tables\Services\Template\Builders;
+namespace LaravelLiberu\Tables\Services\Template\Builders;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\App;
-use LaravelEnso\Helpers\Services\Obj;
-use LaravelEnso\Tables\Attributes\Column as Attributes;
+use LaravelLiberu\Helpers\Services\Obj;
+use LaravelLiberu\Tables\Attributes\Column as Attributes;
 
 class Columns
 {

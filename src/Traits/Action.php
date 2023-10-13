@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Tables\Traits;
+namespace LaravelLiberu\Tables\Traits;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\App;

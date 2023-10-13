@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\Tables\Services\Data;
+namespace LaravelLiberu\Tables\Services\Data;
 
 use Closure;
 use Illuminate\Support\Arr;
-use LaravelEnso\Helpers\Services\Obj;
-use LaravelEnso\Tables\Services\Data\RequestArgument as Argument;
+use LaravelLiberu\Helpers\Services\Obj;
+use LaravelLiberu\Tables\Services\Data\RequestArgument as Argument;
 
 class FilterAggregator
 {

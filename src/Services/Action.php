@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\Tables\Services;
+namespace LaravelLiberu\Tables\Services;
 
-use LaravelEnso\Tables\Contracts\Table;
-use LaravelEnso\Tables\Services\Data\Config;
-use LaravelEnso\Tables\Services\Data\Fetcher;
-use LaravelEnso\Tables\Services\Data\Request;
+use LaravelLiberu\Tables\Contracts\Table;
+use LaravelLiberu\Tables\Services\Data\Config;
+use LaravelLiberu\Tables\Services\Data\Fetcher;
+use LaravelLiberu\Tables\Services\Data\Request;
 
 abstract class Action
 {

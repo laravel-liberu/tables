@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\Tables\Services\Template\Builders;
+namespace LaravelLiberu\Tables\Services\Template\Builders;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Str;
-use LaravelEnso\Helpers\Services\Obj;
+use LaravelLiberu\Helpers\Services\Obj;
 
 class Structure
 {

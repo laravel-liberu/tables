@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\Tables\Jobs;
+namespace LaravelLiberu\Tables\Jobs;
 
 use Illuminate\Foundation\Auth\User;
-use LaravelEnso\DataExport\Models\Export;
-use LaravelEnso\Tables\Exports\EnsoExcel as Service;
-use LaravelEnso\Tables\Services\Data\Config;
+use LaravelLiberu\DataExport\Models\Export;
+use LaravelLiberu\Tables\Exports\EnsoExcel as Service;
+use LaravelLiberu\Tables\Services\Data\Config;
 
 class EnsoExcel extends Excel
 {

@@ -1,12 +1,12 @@
 <?php
 
-namespace LaravelEnso\Tables\Services\Data\Computors;
+namespace LaravelLiberu\Tables\Services\Data\Computors;
 
 use Carbon\Carbon;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Config;
-use LaravelEnso\Helpers\Services\Obj;
-use LaravelEnso\Tables\Contracts\ComputesArrayColumns;
+use LaravelLiberu\Helpers\Services\Obj;
+use LaravelLiberu\Tables\Contracts\ComputesArrayColumns;
 
 class Date implements ComputesArrayColumns
 {

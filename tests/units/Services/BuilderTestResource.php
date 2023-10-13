@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Tables\Tests\units\Services;
+namespace LaravelLiberu\Tables\Tests\units\Services;
 
 use Illuminate\Http\Resources\Json\JsonResource;
 

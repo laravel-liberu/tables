@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\Tables\Services\Data\Sorts;
+namespace LaravelLiberu\Tables\Services\Data\Sorts;
 
 use Illuminate\Database\Eloquent\Builder;
-use LaravelEnso\Tables\Services\Data\Config;
+use LaravelLiberu\Tables\Services\Data\Config;
 
 class Sort
 {

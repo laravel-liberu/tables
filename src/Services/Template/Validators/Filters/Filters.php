@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\Tables\Services\Template\Validators\Filters;
+namespace LaravelLiberu\Tables\Services\Template\Validators\Filters;
 
-use LaravelEnso\Helpers\Services\Obj;
-use LaravelEnso\Tables\Exceptions\Filter as Exception;
+use LaravelLiberu\Helpers\Services\Obj;
+use LaravelLiberu\Tables\Exceptions\Filter as Exception;
 
 class Filters
 {

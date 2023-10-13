@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Tables\Services\Template\Validators\Columns;
+namespace LaravelLiberu\Tables\Services\Template\Validators\Columns;
 
-use LaravelEnso\Helpers\Services\Obj;
-use LaravelEnso\Tables\Attributes\Column as Attributes;
-use LaravelEnso\Tables\Exceptions\Meta as Exception;
+use LaravelLiberu\Helpers\Services\Obj;
+use LaravelLiberu\Tables\Attributes\Column as Attributes;
+use LaravelLiberu\Tables\Exceptions\Meta as Exception;
 
 class Meta
 {

@@ -1,14 +1,14 @@
 <?php
 
-namespace LaravelEnso\Tables\Tests\units\Services\Table\Builders;
+namespace LaravelLiberu\Tables\Tests\units\Services\Table\Builders;
 
 use Illuminate\Cache\TaggableStore;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Config;
-use LaravelEnso\Helpers\Services\Obj;
-use LaravelEnso\Tables\Services\Data\Builders\Meta;
-use LaravelEnso\Tables\Tests\units\Services\SetUp;
-use LaravelEnso\Tables\Tests\units\Services\TestModel;
+use LaravelLiberu\Helpers\Services\Obj;
+use LaravelLiberu\Tables\Services\Data\Builders\Meta;
+use LaravelLiberu\Tables\Tests\units\Services\SetUp;
+use LaravelLiberu\Tables\Tests\units\Services\TestModel;
 use Tests\TestCase;
 
 class MetaTest extends TestCase

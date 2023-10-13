@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Tables\Services\Data\Builders;
+namespace LaravelLiberu\Tables\Services\Data\Builders;
 
 use Carbon\Carbon;
 use Illuminate\Cache\TaggableStore;
@@ -8,13 +8,13 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Config as ConfigFacade;
-use LaravelEnso\Tables\Contracts\CustomCount;
-use LaravelEnso\Tables\Contracts\CustomCountCacheKey;
-use LaravelEnso\Tables\Contracts\Table;
-use LaravelEnso\Tables\Exceptions\Cache as Exception;
-use LaravelEnso\Tables\Services\Data\Computors\Number;
-use LaravelEnso\Tables\Services\Data\Config;
-use LaravelEnso\Tables\Services\Data\Filters;
+use LaravelLiberu\Tables\Contracts\CustomCount;
+use LaravelLiberu\Tables\Contracts\CustomCountCacheKey;
+use LaravelLiberu\Tables\Contracts\Table;
+use LaravelLiberu\Tables\Exceptions\Cache as Exception;
+use LaravelLiberu\Tables\Services\Data\Computors\Number;
+use LaravelLiberu\Tables\Services\Data\Config;
+use LaravelLiberu\Tables\Services\Data\Filters;
 use ReflectionClass;
 
 class Meta

@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Tables\Services\Template\Validators;
+namespace LaravelLiberu\Tables\Services\Template\Validators;
 
 use Illuminate\Support\Facades\Config;
-use LaravelEnso\Helpers\Services\Obj;
-use LaravelEnso\Tables\Exceptions\Control as Exception;
+use LaravelLiberu\Helpers\Services\Obj;
+use LaravelLiberu\Tables\Exceptions\Control as Exception;
 
 class Controls
 {

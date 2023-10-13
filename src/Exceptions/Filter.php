@@ -1,16 +1,16 @@
 <?php
 
-namespace LaravelEnso\Tables\Exceptions;
+namespace LaravelLiberu\Tables\Exceptions;
 
-use LaravelEnso\Helpers\Exceptions\EnsoException;
-use LaravelEnso\Tables\Attributes\Filter as Attributes;
+use LaravelLiberu\Helpers\Exceptions\EnsoException;
+use LaravelLiberu\Tables\Attributes\Filter as Attributes;
 
 class Filter extends EnsoException
 {
     public static function missingContract(string $class)
     {
         return new static(__(
-            ':class must implement "LaravelEnso\Tables\Contracts\Filter"',
+            ':class must implement "LaravelLiberu\Tables\Contracts\Filter"',
             ['class' => $class]
         ));
     }

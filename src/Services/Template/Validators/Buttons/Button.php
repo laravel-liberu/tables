@@ -1,14 +1,14 @@
 <?php
 
-namespace LaravelEnso\Tables\Services\Template\Validators\Buttons;
+namespace LaravelLiberu\Tables\Services\Template\Validators\Buttons;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Route;
-use LaravelEnso\Helpers\Services\Obj;
-use LaravelEnso\Tables\Attributes\Button as Attributes;
-use LaravelEnso\Tables\Contracts\ConditionalActions;
-use LaravelEnso\Tables\Contracts\Table;
-use LaravelEnso\Tables\Exceptions\Button as Exception;
+use LaravelLiberu\Helpers\Services\Obj;
+use LaravelLiberu\Tables\Attributes\Button as Attributes;
+use LaravelLiberu\Tables\Contracts\ConditionalActions;
+use LaravelLiberu\Tables\Contracts\Table;
+use LaravelLiberu\Tables\Exceptions\Button as Exception;
 
 class Button
 {

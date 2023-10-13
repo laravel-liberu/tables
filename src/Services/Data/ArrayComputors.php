@@ -1,16 +1,16 @@
 <?php
 
-namespace LaravelEnso\Tables\Services\Data;
+namespace LaravelLiberu\Tables\Services\Data;
 
 use Illuminate\Support\Collection;
-use LaravelEnso\Tables\Contracts\ComputesArrayColumns;
-use LaravelEnso\Tables\Exceptions\ArrayComputor;
-use LaravelEnso\Tables\Services\Data\Computors\Cents;
-use LaravelEnso\Tables\Services\Data\Computors\Date;
-use LaravelEnso\Tables\Services\Data\Computors\DateTime;
-use LaravelEnso\Tables\Services\Data\Computors\Enum;
-use LaravelEnso\Tables\Services\Data\Computors\Number;
-use LaravelEnso\Tables\Services\Data\Computors\Translator;
+use LaravelLiberu\Tables\Contracts\ComputesArrayColumns;
+use LaravelLiberu\Tables\Exceptions\ArrayComputor;
+use LaravelLiberu\Tables\Services\Data\Computors\Cents;
+use LaravelLiberu\Tables\Services\Data\Computors\Date;
+use LaravelLiberu\Tables\Services\Data\Computors\DateTime;
+use LaravelLiberu\Tables\Services\Data\Computors\Enum;
+use LaravelLiberu\Tables\Services\Data\Computors\Number;
+use LaravelLiberu\Tables\Services\Data\Computors\Translator;
 
 class ArrayComputors extends Computors
 {

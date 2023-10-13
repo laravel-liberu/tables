@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Tables\Services\Data\Filters;
+namespace LaravelLiberu\Tables\Services\Data\Filters;
 
 use Illuminate\Support\Collection;
 

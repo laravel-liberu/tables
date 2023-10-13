@@ -1,12 +1,12 @@
 <?php
 
-namespace LaravelEnso\Tables\Tests\units\Services\Template\Builders;
+namespace LaravelLiberu\Tables\Tests\units\Services\Template\Builders;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
-use LaravelEnso\Helpers\Services\Obj;
-use LaravelEnso\Tables\Attributes\Column;
-use LaravelEnso\Tables\Services\Template\Builders\Columns;
+use LaravelLiberu\Helpers\Services\Obj;
+use LaravelLiberu\Tables\Attributes\Column;
+use LaravelLiberu\Tables\Services\Template\Builders\Columns;
 use Tests\TestCase;
 
 class ColumnTest extends TestCase

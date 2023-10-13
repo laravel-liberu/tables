@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Tables\Tests\units\Services\Table\Filters;
+namespace LaravelLiberu\Tables\Tests\units\Services\Table\Filters;
 
-use LaravelEnso\Helpers\Services\Obj;
-use LaravelEnso\Tables\Services\Data\Filters\Filter;
-use LaravelEnso\Tables\Tests\units\Services\SetUp;
+use LaravelLiberu\Helpers\Services\Obj;
+use LaravelLiberu\Tables\Services\Data\Filters\Filter;
+use LaravelLiberu\Tables\Tests\units\Services\SetUp;
 use Tests\TestCase;
 
 class FilterTest extends TestCase

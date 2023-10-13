@@ -1,16 +1,16 @@
 <?php
 
-namespace LaravelEnso\Tables\Services\Data\Builders;
+namespace LaravelLiberu\Tables\Services\Data\Builders;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Collection;
-use LaravelEnso\Helpers\Services\Obj;
-use LaravelEnso\Tables\Contracts\ConditionalActions;
-use LaravelEnso\Tables\Contracts\CustomCssClasses;
-use LaravelEnso\Tables\Contracts\Table;
-use LaravelEnso\Tables\Services\Data\Config;
-use LaravelEnso\Tables\Services\Data\Filters;
-use LaravelEnso\Tables\Services\Data\Sorts\Sort;
+use LaravelLiberu\Helpers\Services\Obj;
+use LaravelLiberu\Tables\Contracts\ConditionalActions;
+use LaravelLiberu\Tables\Contracts\CustomCssClasses;
+use LaravelLiberu\Tables\Contracts\Table;
+use LaravelLiberu\Tables\Services\Data\Config;
+use LaravelLiberu\Tables\Services\Data\Filters;
+use LaravelLiberu\Tables\Services\Data\Sorts\Sort;
 
 class Data
 {

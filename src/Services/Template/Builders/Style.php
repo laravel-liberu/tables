@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\Tables\Services\Template\Builders;
+namespace LaravelLiberu\Tables\Services\Template\Builders;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Config;
-use LaravelEnso\Helpers\Services\Obj;
-use LaravelEnso\Tables\Attributes\Style as Attributes;
+use LaravelLiberu\Helpers\Services\Obj;
+use LaravelLiberu\Tables\Attributes\Style as Attributes;
 
 class Style
 {

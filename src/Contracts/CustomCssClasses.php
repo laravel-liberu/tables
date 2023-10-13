@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Tables\Contracts;
+namespace LaravelLiberu\Tables\Contracts;
 
 interface CustomCssClasses
 {

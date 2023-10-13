@@ -1,17 +1,17 @@
 <?php
 
-namespace LaravelEnso\Tables\Services;
+namespace LaravelLiberu\Tables\Services;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Str;
-use LaravelEnso\Helpers\Services\JsonReader;
-use LaravelEnso\Helpers\Services\Obj;
-use LaravelEnso\Tables\Contracts\Table;
-use LaravelEnso\Tables\Services\Template\Builder;
-use LaravelEnso\Tables\Services\Template\Validator;
+use LaravelLiberu\Helpers\Services\JsonReader;
+use LaravelLiberu\Helpers\Services\Obj;
+use LaravelLiberu\Tables\Contracts\Table;
+use LaravelLiberu\Tables\Services\Template\Builder;
+use LaravelLiberu\Tables\Services\Template\Validator;
 use ReflectionClass;
 
 class Template

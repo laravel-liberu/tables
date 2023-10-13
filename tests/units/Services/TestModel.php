@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Tables\Tests\units\Services;
+namespace LaravelLiberu\Tables\Tests\units\Services;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Schema;
-use LaravelEnso\Tables\Traits\TableCache;
+use LaravelLiberu\Tables\Traits\TableCache;
 
 class TestModel extends Model
 {

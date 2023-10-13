@@ -1,12 +1,12 @@
 <?php
 
-namespace LaravelEnso\Tables\Services\Data\Builders;
+namespace LaravelLiberu\Tables\Services\Data\Builders;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
-use LaravelEnso\Tables\Services\Data\ArrayComputors;
-use LaravelEnso\Tables\Services\Data\Config;
-use LaravelEnso\Tables\Services\Data\ModelComputors;
+use LaravelLiberu\Tables\Services\Data\ArrayComputors;
+use LaravelLiberu\Tables\Services\Data\Config;
+use LaravelLiberu\Tables\Services\Data\ModelComputors;
 
 class Computor
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Tables\Services\Data;
+namespace LaravelLiberu\Tables\Services\Data;
 
 use Illuminate\Support\Collection;
 

@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Tables;
+namespace LaravelLiberu\Tables;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\ServiceProvider;
-use LaravelEnso\Tables\Commands\TemplateCacheClear;
+use LaravelLiberu\Tables\Commands\TemplateCacheClear;
 
 class AppServiceProvider extends ServiceProvider
 {

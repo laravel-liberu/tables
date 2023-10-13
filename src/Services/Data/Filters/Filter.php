@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\Tables\Services\Data\Filters;
+namespace LaravelLiberu\Tables\Services\Data\Filters;
 
 use Illuminate\Support\Collection;
-use LaravelEnso\Helpers\Services\Obj;
+use LaravelLiberu\Helpers\Services\Obj;
 
 class Filter extends BaseFilter
 {

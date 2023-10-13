@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Tables\Commands;
+namespace LaravelLiberu\Tables\Commands;
 
 use Illuminate\Cache\TaggableStore;
 use Illuminate\Console\Command;

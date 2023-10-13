@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Tables\Attributes;
+namespace LaravelLiberu\Tables\Attributes;
 
 class Column
 {

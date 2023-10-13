@@ -1,15 +1,15 @@
 <?php
 
-namespace LaravelEnso\Tables\Services\Data\Builders;
+namespace LaravelLiberu\Tables\Services\Data\Builders;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Facades\DB;
-use LaravelEnso\Helpers\Services\Obj;
-use LaravelEnso\Tables\Contracts\RawTotal;
-use LaravelEnso\Tables\Contracts\Table;
-use LaravelEnso\Tables\Exceptions\Meta as Exception;
-use LaravelEnso\Tables\Services\Data\Computors\Number;
-use LaravelEnso\Tables\Services\Data\Config;
+use LaravelLiberu\Helpers\Services\Obj;
+use LaravelLiberu\Tables\Contracts\RawTotal;
+use LaravelLiberu\Tables\Contracts\Table;
+use LaravelLiberu\Tables\Exceptions\Meta as Exception;
+use LaravelLiberu\Tables\Services\Data\Computors\Number;
+use LaravelLiberu\Tables\Services\Data\Config;
 
 class Total
 {

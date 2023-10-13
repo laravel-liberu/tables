@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\Tables\Services\Data\Filters;
+namespace LaravelLiberu\Tables\Services\Data\Filters;
 
 use Illuminate\Database\Eloquent\Builder;
-use LaravelEnso\Tables\Contracts\Filter;
-use LaravelEnso\Tables\Contracts\Table;
-use LaravelEnso\Tables\Services\Data\Config;
+use LaravelLiberu\Tables\Contracts\Filter;
+use LaravelLiberu\Tables\Contracts\Table;
+use LaravelLiberu\Tables\Services\Data\Config;
 
 abstract class BaseFilter implements Filter
 {

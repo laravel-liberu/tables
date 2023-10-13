@@ -1,12 +1,12 @@
 <?php
 
-namespace LaravelEnso\Tables\Tests\units\Services\Table\Filters;
+namespace LaravelLiberu\Tables\Tests\units\Services\Table\Filters;
 
 use Illuminate\Support\Collection;
-use LaravelEnso\Helpers\Services\Obj;
-use LaravelEnso\Tables\Services\Data\Filters\Search;
-use LaravelEnso\Tables\Tests\units\Services\SetUp;
-use LaravelEnso\Tables\Tests\units\Services\TestModel;
+use LaravelLiberu\Helpers\Services\Obj;
+use LaravelLiberu\Tables\Services\Data\Filters\Search;
+use LaravelLiberu\Tables\Tests\units\Services\SetUp;
+use LaravelLiberu\Tables\Tests\units\Services\TestModel;
 use Tests\TestCase;
 
 class SearchTest extends TestCase

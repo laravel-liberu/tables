@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\Tables\Services\Template\Validators\Columns;
+namespace LaravelLiberu\Tables\Services\Template\Validators\Columns;
 
-use LaravelEnso\Helpers\Services\Obj;
-use LaravelEnso\Tables\Exceptions\Column as Exception;
+use LaravelLiberu\Helpers\Services\Obj;
+use LaravelLiberu\Tables\Exceptions\Column as Exception;
 
 class Columns
 {
