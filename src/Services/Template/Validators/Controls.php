@@ -14,7 +14,7 @@ class Controls
     public function __construct(Obj $template)
     {
         $this->controls = $template->get('controls');
-        $this->defaults = new Obj(Config::get('enso.tables.controls'));
+        $this->defaults = new Obj(Config::get('liberu.tables.controls'));
     }
 
     public function validate()

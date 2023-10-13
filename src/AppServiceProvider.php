@@ -17,11 +17,11 @@ class AppServiceProvider extends ServiceProvider
 
     private function load()
     {
-        $this->mergeConfigFrom(__DIR__.'/../config/tables.php', 'enso.tables');
+        $this->mergeConfigFrom(__DIR__.'/../config/tables.php', 'liberu.tables');
 
-        $this->mergeConfigFrom(__DIR__.'/../config/api.php', 'enso.tables');
+        $this->mergeConfigFrom(__DIR__.'/../config/api.php', 'liberu.tables');
 
-        $this->loadViewsFrom(__DIR__.'/../resources/views', 'laravel-enso/tables');
+        $this->loadViewsFrom(__DIR__.'/../resources/views', 'laravel-liberu/tables');
 
         return $this;
     }
@@ -29,12 +29,12 @@ class AppServiceProvider extends ServiceProvider
     private function publish()
     {
         $this->publishes([
-            __DIR__.'/../config/tables.php' => config_path('enso/tables.php'),
-        ], ['tables-config', 'enso-config']);
+            __DIR__.'/../config/tables.php' => config_path('liberu/tables.php'),
+        ], ['tables-config', 'liberu-config']);
 
         $this->publishes([
-            __DIR__.'/../resources/views' => resource_path('views/vendor/laravel-enso/tables'),
-        ], ['tables-mail', 'enso-mail']);
+            __DIR__.'/../resources/views' => resource_path('views/vendor/laravel-liberu/tables'),
+        ], ['tables-mail', 'liberu-mail']);
 
         $this->stubs()->each(fn ($ext, $stub) => $this->publishes([
             __DIR__."/../stubs/{$stub}.stub" => app_path("{$stub}.{$ext}"),

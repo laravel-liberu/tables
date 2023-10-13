@@ -99,26 +99,26 @@ class ButtonsTest extends TestCase
         $this->build();
 
         $this->assertEquals(
-            (new Obj(Config::get('enso.tables.buttons.global.create')))
+            (new Obj(Config::get('liberu.tables.buttons.global.create')))
                 ->put('name', 'create')
                 ->except('routeSuffix'),
             $this->template->get('buttons')->get('global')->first()->except('route')
         );
 
         $this->assertEquals(
-            (new Obj(Config::get('enso.tables.buttons.row.show')))
+            (new Obj(Config::get('liberu.tables.buttons.row.show')))
                 ->put('name', 'show')
                 ->except('routeSuffix'),
             $this->template->get('buttons')->get('row')->first()->except('route')
         );
 
         $this->assertEquals(
-            '.'.Config::get('enso.tables.buttons.global.create.routeSuffix'),
+            '.'.Config::get('liberu.tables.buttons.global.create.routeSuffix'),
             $this->template->get('buttons')->get('global')->first()->get('route')
         );
 
         $this->assertEquals(
-            '.'.Config::get('enso.tables.buttons.row.show.routeSuffix'),
+            '.'.Config::get('liberu.tables.buttons.row.show.routeSuffix'),
             $this->template->get('buttons')->get('row')->first()->get('route')
         );
     }

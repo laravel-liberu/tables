@@ -35,6 +35,6 @@ class DateTime implements ComputesArrayColumns
     {
         return $column->has('dateFormat')
             ? $column->get('dateFormat')
-            : Config::get('enso.tables.dateTimeFormat');
+            : Config::get('liberu.tables.dateTimeFormat');
     }
 }

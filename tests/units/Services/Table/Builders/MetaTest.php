@@ -30,15 +30,15 @@ class MetaTest extends TestCase
 
         $this->requestResponse();
 
-        $this->assertFalse(Cache::has('enso:tables:testModels'));
+        $this->assertFalse(Cache::has('liberu:tables:testModels'));
     }
 
     /** @test */
     public function can_get_data_with_cache_when_table_cache_trait_used()
     {
-        $key = 'enso:tables:test_models';
+        $key = 'liberu:tables:test_models';
 
-        Config::set('enso.tables.cache.count', true);
+        Config::set('liberu.tables.cache.count', true);
 
         $this->requestResponse();
 

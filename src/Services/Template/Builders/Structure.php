@@ -65,7 +65,7 @@ class Structure
             ->filter(fn ($attribute) => ! $this->template->has($attribute))
             ->each(fn ($attribute) => $this->template->set(
                 $attribute,
-                Config::get("enso.tables.{$attribute}")
+                Config::get("liberu.tables.{$attribute}")
             ));
 
         return $this;
@@ -94,9 +94,9 @@ class Structure
         $prefix = $this->template->get('routePrefix');
 
         $suffix = $this->template->get('dataRouteSuffix')
-            ?? Config::get('enso.tables.dataRouteSuffix');
+            ?? Config::get('liberu.tables.dataRouteSuffix');
 
-        $absolute = Config::get('enso.tables.absoluteRoutes');
+        $absolute = Config::get('liberu.tables.absoluteRoutes');
 
         $this->template->set('readPath', route("{$prefix}.{$suffix}", [], $absolute));
 
@@ -139,7 +139,7 @@ class Structure
     private function metaFromTemplateOrConfig(string $attribute): void
     {
         $value = $this->template->get($attribute)
-            ?? Config::get("enso.tables.{$attribute}");
+            ?? Config::get("liberu.tables.{$attribute}");
 
         $this->meta->set($attribute, $value);
 

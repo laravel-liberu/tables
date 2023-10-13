@@ -166,7 +166,7 @@ class Meta
     {
         $shouldCache = $this->config->has('countCache')
             ? $this->config->get('countCache')
-            : ConfigFacade::get('enso.tables.cache.count');
+            : ConfigFacade::get('liberu.tables.cache.count');
 
         if ($shouldCache) {
             $model = $this->query->getModel();

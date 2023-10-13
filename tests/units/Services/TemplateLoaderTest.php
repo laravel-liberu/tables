@@ -22,9 +22,9 @@ class TemplateLoaderTest extends TestCase
 
         $this->table = new TestTable();
 
-        Config::set('enso.tables.cache.prefix', 'prefix');
-        Config::set('enso.tables.cache.tag', 'tag');
-        Config::set('enso.tables.cache.template', 'never');
+        Config::set('liberu.tables.cache.prefix', 'prefix');
+        Config::set('liberu.tables.cache.tag', 'tag');
+        Config::set('liberu.tables.cache.template', 'never');
     }
 
     /** @test */
@@ -50,7 +50,7 @@ class TemplateLoaderTest extends TestCase
     /** @test */
     public function cannot_cache_template_with_never_cache_config()
     {
-        Config::set('enso.tables.cache.template', 'never');
+        Config::set('liberu.tables.cache.template', 'never');
         TestTable::cache(null);
 
         (new TemplateLoader($this->table))->handle();
@@ -61,7 +61,7 @@ class TemplateLoaderTest extends TestCase
     /** @test */
     public function cannot_cache_template_with_never_template_cache()
     {
-        Config::set('enso.tables.cache.template', 'always');
+        Config::set('liberu.tables.cache.template', 'always');
         TestTable::cache('never');
 
         (new TemplateLoader($this->table))->handle();
@@ -72,7 +72,7 @@ class TemplateLoaderTest extends TestCase
     /** @test */
     public function can_cache_with_environment()
     {
-        Config::set('enso.tables.cache.template', app()->environment());
+        Config::set('liberu.tables.cache.template', app()->environment());
         TestTable::cache(null);
 
         (new TemplateLoader($this->table))->handle();
@@ -94,7 +94,7 @@ class TemplateLoaderTest extends TestCase
 
     private function cacheKey(): string
     {
-        return Config::get('enso.tables.cache.prefix')
+        return Config::get('liberu.tables.cache.prefix')
             .':'.Str::slug(str_replace(
                 ['/', '.'],
                 [' ', ' '],

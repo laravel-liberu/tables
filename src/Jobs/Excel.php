@@ -24,8 +24,8 @@ class Excel implements ShouldQueue
         protected Config $config,
         protected string $table
     ) {
-        $this->timeout = ConfigFacade::get('enso.tables.export.timeout');
-        $this->queue = ConfigFacade::get('enso.tables.queues.exports');
+        $this->timeout = ConfigFacade::get('liberu.tables.export.timeout');
+        $this->queue = ConfigFacade::get('liberu.tables.queues.exports');
     }
 
     public function handle()

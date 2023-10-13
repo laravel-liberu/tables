@@ -14,7 +14,7 @@ trait Datatable
             throw new Exception('"permissionGroup" property is missing from your test');
         }
 
-        $absolute = Config::get('enso.tables.absoluteRoutes');
+        $absolute = Config::get('liberu.tables.absoluteRoutes');
 
         $init = $this->get(route($this->permissionGroup.'.initTable', [], $absolute));
 

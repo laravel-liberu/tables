@@ -88,7 +88,7 @@ class Excel
     protected function finalize(): void
     {
         $notification = (new ExportDone($this->path, $this->filename, $this->entryCount))
-            ->onQueue(ConfigFacade::get('enso.tables.queues.notifications'));
+            ->onQueue(ConfigFacade::get('liberu.tables.queues.notifications'));
 
         $this->user->notify($notification);
     }
@@ -98,7 +98,7 @@ class Excel
         $this->cancelled = true;
 
         $this->user->notify((new ExportError($this->config->name()))
-            ->onQueue(ConfigFacade::get('enso.tables.queues.notifications')));
+            ->onQueue(ConfigFacade::get('liberu.tables.queues.notifications')));
     }
 
     protected function updateProgress(int $chunkSize): self
@@ -175,7 +175,7 @@ class Excel
 
     private function needsNewSheet(): bool
     {
-        $limit = ConfigFacade::get('enso.tables.export.sheetLimit');
+        $limit = ConfigFacade::get('liberu.tables.export.sheetLimit');
         $needed = Decimals::div($this->entryCount, $limit);
 
         return $needed >= $this->sheetCount;
@@ -240,7 +240,7 @@ class Excel
 
     private function relativePath(): string
     {
-        $folder = ConfigFacade::get('enso.tables.export.folder');
+        $folder = ConfigFacade::get('liberu.tables.export.folder');
 
         if (! Storage::has($folder)) {
             Storage::makeDirectory($folder);

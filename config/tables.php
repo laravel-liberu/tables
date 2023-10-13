@@ -30,8 +30,8 @@ return [
     'cache' => [
         'template' => 'production',
         'count' => true,
-        'prefix' => 'enso:tables',
-        'tag' => 'enso:tables',
+        'prefix' => 'liberu:tables',
+        'tag' => 'liberu:tables',
     ],
 
     /*

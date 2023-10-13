@@ -14,7 +14,7 @@ class Style
     public function __construct(private Obj $template)
     {
         $this->template = $template;
-        $this->defaultStyle = new Obj(Config::get('enso.tables.style'));
+        $this->defaultStyle = new Obj(Config::get('liberu.tables.style'));
     }
 
     public function build(): void

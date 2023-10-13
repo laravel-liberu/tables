@@ -21,7 +21,7 @@ class TableCacheTest extends TestCase
     {
         parent::setUp();
 
-        Config::set('enso.tables.cache.prefix', 'prefix');
+        Config::set('liberu.tables.cache.prefix', 'prefix');
 
         $this->key = 'prefix:test_models';
         $this->faker = Factory::create();

@@ -32,7 +32,7 @@ class Filters
 
     private function compute(Obj $filter): Obj
     {
-        $absolute = Config::get('enso.tables.absoluteRoutes');
+        $absolute = Config::get('liberu.tables.absoluteRoutes');
 
         return $filter->when($filter->has('route'), fn ($filter) => $filter
             ->set('path', route($filter->get('route'), [], $absolute))
@@ -47,7 +47,7 @@ class Filters
 
     private function needAuthorization()
     {
-        return ! empty(Config::get('enso.config'))
+        return ! empty(Config::get('liberu.config'))
             && $this->template->get('auth') !== false;
     }
 }

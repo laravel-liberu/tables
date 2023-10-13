@@ -23,7 +23,7 @@ class ExportDone extends Notification implements ShouldQueue
 
     public function via()
     {
-        return Config::get('enso.tables.export.notifications');
+        return Config::get('liberu.tables.export.notifications');
     }
 
     public function toBroadcast()
@@ -40,7 +40,7 @@ class ExportDone extends Notification implements ShouldQueue
 
         return (new MailMessage())
             ->subject("[ {$appName} ] {$this->title()}")
-            ->markdown('laravel-enso/tables::emails.export', [
+            ->markdown('laravel-liberu/tables::emails.export', [
                 'name' => $notifiable->name,
                 'filename' => __($this->filename),
                 'entries' => $this->entries,

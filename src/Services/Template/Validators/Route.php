@@ -27,7 +27,7 @@ class Route
     {
         $suffix = $template->has('dataRouteSuffix')
             ? $template->get('dataRouteSuffix')
-            : Config::get('enso.tables.dataRouteSuffix');
+            : Config::get('liberu.tables.dataRouteSuffix');
 
         return "{$template->get('routePrefix')}.{$suffix}";
     }

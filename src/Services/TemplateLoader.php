@@ -61,7 +61,7 @@ class TemplateLoader
 
         $type = $this->template->get(
             'templateCache',
-            Config::get('enso.tables.cache.template')
+            Config::get('liberu.tables.cache.template')
         );
 
         return match ($type) {
@@ -73,7 +73,7 @@ class TemplateLoader
 
     private function cacheKey(): string
     {
-        $configPrefix = Config::get('enso.tables.cache.prefix');
+        $configPrefix = Config::get('liberu.tables.cache.prefix');
 
         $prefix = $this->table instanceof DynamicTemplate
             ? "{$this->table->cachePrefix()}:"
@@ -88,7 +88,7 @@ class TemplateLoader
     private function cache()
     {
         return Cache::getStore() instanceof TaggableStore
-            ? Cache::tags(Config::get('enso.tables.cache.tag'))
+            ? Cache::tags(Config::get('liberu.tables.cache.tag'))
             : Cache::store();
     }
 }

@@ -28,7 +28,7 @@ trait TableCache
 
     public function tableCacheKey(): string
     {
-        $prefix = Config::get('enso.tables.cache.prefix');
+        $prefix = Config::get('liberu.tables.cache.prefix');
 
         return "{$prefix}:{$this->getTable()}";
     }

@@ -19,7 +19,7 @@ class ExportError extends Notification implements ShouldQueue
 
     public function via()
     {
-        $channels = Config::get('enso.tables.export.notifications');
+        $channels = Config::get('liberu.tables.export.notifications');
 
         return Collection::wrap($channels)
             ->intersect(['broadcast', 'database'])

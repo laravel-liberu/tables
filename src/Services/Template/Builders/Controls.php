@@ -18,7 +18,7 @@ class Controls
             return;
         }
 
-        $controls = Config::get('enso.tables.controls') ?? Attributes::List;
+        $controls = Config::get('liberu.tables.controls') ?? Attributes::List;
         $this->template->set('controls', $controls);
     }
 }

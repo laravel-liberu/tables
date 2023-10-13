@@ -121,7 +121,7 @@ class DataTest extends TestCase
     /** @test */
     public function can_get_data_with_datetime()
     {
-        $format = Config::get('enso.tables.dateTimeFormat');
+        $format = Config::get('liberu.tables.dateTimeFormat');
         $this->config->meta()->set('datetime', true);
 
         $this->config->columns()->push(new Obj([

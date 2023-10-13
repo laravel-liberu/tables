@@ -59,7 +59,7 @@ class Template
         return [
             'template' => $this->template,
             'meta' => $this->meta,
-            'apiVersion' => Config::get('enso.tables.apiVersion'),
+            'apiVersion' => Config::get('liberu.tables.apiVersion'),
         ];
     }
 
@@ -132,7 +132,7 @@ class Template
 
     private function needsValidation()
     {
-        $validations = Config::get('enso.tables.validations');
+        $validations = Config::get('liberu.tables.validations');
 
         return in_array($validations, [App::environment(), 'always']);
     }

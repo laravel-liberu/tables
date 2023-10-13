@@ -95,7 +95,7 @@ class Buttons
     {
         if (in_array($button->get('action'), self::PathActions)) {
             $param = $type === 'row' ? 'dtRowId' : null;
-            $absolute = Config::get('enso.tables.absoluteRoutes');
+            $absolute = Config::get('liberu.tables.absoluteRoutes');
             $button->set('path', route($route, [$param], $absolute));
         } else {
             $button->set('route', $route);
@@ -110,13 +110,13 @@ class Buttons
 
     private function needAuthorization()
     {
-        return ! empty(Config::get('enso.config'))
+        return ! empty(Config::get('liberu.config'))
             && $this->template->get('auth') !== false;
     }
 
     private function defaults(): Obj
     {
-        return (new Obj(Config::get('enso.tables.buttons')))
+        return (new Obj(Config::get('liberu.tables.buttons')))
             ->each(fn ($group) => $group
                 ->each(fn ($button, $key) => $button->set('name', $key)));
     }

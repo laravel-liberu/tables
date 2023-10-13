@@ -55,7 +55,7 @@ class EnsoExcel extends Excel
             ->save();
 
         $notification = new ExportDone($this->export, $this->emailSubject());
-        $queue = ConfigFacade::get('enso.tables.queues.notifications');
+        $queue = ConfigFacade::get('liberu.tables.queues.notifications');
         $this->user->notify($notification->onQueue($queue));
     }
 
