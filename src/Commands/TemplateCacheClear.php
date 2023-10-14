@@ -17,12 +17,12 @@ class TemplateCacheClear extends Command
     {
         if (Cache::getStore() instanceof TaggableStore) {
             Cache::tags(Config::get('liberu.tables.cache.tag'))->flush();
-            $this->info('Enso table cached templates cleared');
+            $this->info('Liberu table cached templates cleared');
         } elseif ($this->confirm("Your cache driver doesn't support tags, therefore we should flush the whole cache")) {
             Cache::flush();
             $this->info('Application cache cleared');
         } else {
-            $this->warn('Enso Table cached templates were not cleared');
+            $this->warn('Liberu Table cached templates were not cleared');
         }
     }
 }

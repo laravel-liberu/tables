@@ -2,10 +2,10 @@
 
 namespace LaravelLiberu\Tables\Exceptions;
 
-use LaravelLiberu\Helpers\Exceptions\EnsoException;
+use LaravelLiberu\Helpers\Exceptions\LiberuException;
 use LaravelLiberu\Tables\Attributes\Filter as Attributes;
 
-class Filter extends EnsoException
+class Filter extends LiberuException
 {
     public static function missingContract(string $class)
     {

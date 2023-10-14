@@ -2,9 +2,9 @@
 
 namespace LaravelLiberu\Tables\Exceptions;
 
-use LaravelLiberu\Helpers\Exceptions\EnsoException;
+use LaravelLiberu\Helpers\Exceptions\LiberuException;
 
-class ArrayComputor extends EnsoException
+class ArrayComputor extends LiberuException
 {
     public static function missingInterface()
     {

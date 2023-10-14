@@ -2,9 +2,9 @@
 
 namespace LaravelLiberu\Tables\Exceptions;
 
-use LaravelLiberu\Helpers\Exceptions\EnsoException;
+use LaravelLiberu\Helpers\Exceptions\LiberuException;
 
-class Cache extends EnsoException
+class Cache extends LiberuException
 {
     public static function missingTrait(string $model)
     {

@@ -2,9 +2,9 @@
 
 namespace LaravelLiberu\Tables\Exceptions;
 
-use LaravelLiberu\Helpers\Exceptions\EnsoException;
+use LaravelLiberu\Helpers\Exceptions\LiberuException;
 
-class Route extends EnsoException
+class Route extends LiberuException
 {
     public static function notFound(string $route)
     {

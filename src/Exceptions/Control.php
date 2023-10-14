@@ -2,9 +2,9 @@
 
 namespace LaravelLiberu\Tables\Exceptions;
 
-use LaravelLiberu\Helpers\Exceptions\EnsoException;
+use LaravelLiberu\Helpers\Exceptions\LiberuException;
 
-class Control extends EnsoException
+class Control extends LiberuException
 {
     public static function invalidFormat()
     {

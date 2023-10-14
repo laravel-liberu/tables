@@ -2,10 +2,10 @@
 
 namespace LaravelLiberu\Tables\Exceptions;
 
-use LaravelLiberu\Helpers\Exceptions\EnsoException;
+use LaravelLiberu\Helpers\Exceptions\LiberuException;
 use LaravelLiberu\Tables\Attributes\Button as Attributes;
 
-class Button extends EnsoException
+class Button extends LiberuException
 {
     public static function invalidFormat()
     {

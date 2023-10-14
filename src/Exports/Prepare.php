@@ -5,7 +5,7 @@ namespace LaravelLiberu\Tables\Exports;
 use Illuminate\Foundation\Auth\User;
 use LaravelLiberu\DataExport\Enums\Statuses;
 use LaravelLiberu\DataExport\Models\Export;
-use LaravelLiberu\Tables\Jobs\EnsoExcel;
+use LaravelLiberu\Tables\Jobs\LiberuExcel;
 use LaravelLiberu\Tables\Jobs\Excel;
 use LaravelLiberu\Tables\Services\Data\Config;
 
@@ -22,9 +22,9 @@ class Prepare
     {
         $args = [$this->user, $this->config, $this->table];
 
-        if ($this->config->isEnso()) {
+        if ($this->config->isLiberu()) {
             $args[] = $this->export();
-            EnsoExcel::dispatch(...$args);
+            LiberuExcel::dispatch(...$args);
         } else {
             Excel::dispatch(...$args);
         }

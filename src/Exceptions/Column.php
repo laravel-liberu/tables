@@ -2,10 +2,10 @@
 
 namespace LaravelLiberu\Tables\Exceptions;
 
-use LaravelLiberu\Helpers\Exceptions\EnsoException;
+use LaravelLiberu\Helpers\Exceptions\LiberuException;
 use LaravelLiberu\Tables\Attributes\Number;
 
-class Column extends EnsoException
+class Column extends LiberuException
 {
     public static function invalidFormat()
     {

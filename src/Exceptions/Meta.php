@@ -2,9 +2,9 @@
 
 namespace LaravelLiberu\Tables\Exceptions;
 
-use LaravelLiberu\Helpers\Exceptions\EnsoException;
+use LaravelLiberu\Helpers\Exceptions\LiberuException;
 
-class Meta extends EnsoException
+class Meta extends LiberuException
 {
     public static function unknownAttributes(string $attrs)
     {

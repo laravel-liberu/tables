@@ -12,7 +12,7 @@ use LaravelLiberu\Files\Models\File;
 use LaravelLiberu\Tables\Contracts\Table;
 use LaravelLiberu\Tables\Services\Data\Config;
 
-class EnsoExcel extends Excel
+class LiberuExcel extends Excel
 {
     public function __construct(
         protected User $user,

@@ -83,7 +83,7 @@ class Config
         return $this->request;
     }
 
-    public function isEnso(): bool
+    public function isLiberu(): bool
     {
         return ! empty(ConfigFacade::get('liberu.config'));
     }

@@ -4,10 +4,10 @@ namespace LaravelLiberu\Tables\Jobs;
 
 use Illuminate\Foundation\Auth\User;
 use LaravelLiberu\DataExport\Models\Export;
-use LaravelLiberu\Tables\Exports\EnsoExcel as Service;
+use LaravelLiberu\Tables\Exports\LiberuExcel as Service;
 use LaravelLiberu\Tables\Services\Data\Config;
 
-class EnsoExcel extends Excel
+class LiberuExcel extends Excel
 {
     private readonly Export $export;
 
